@@ -1,0 +1,14 @@
+[
+ {"_name":"Missing Worksheet","_assignmentsections":[{"duedate":"2026-10-20","name":"Missing Worksheet","_assignmentscores":[{"ismissing":true,"islate":false,"isexempt":false,"iscollected":false}],"_assignmentcategoryassociations":[{"_teachercategory":{"name":"Homework"}}]}]},
+ {"_name":"Late Essay","_assignmentsections":[{"duedate":"2026-10-25","name":"Late Essay","_assignmentscores":[{"ismissing":false,"islate":true,"isexempt":false,"iscollected":true,"scorepoints":8.0,"actualscoreentered":"8"}],"_assignmentcategoryassociations":[{"_teachercategory":{"name":"Projects"}}]}]},
+ {"_name":"Exempt Missing","_assignmentsections":[{"duedate":"2026-10-21","_assignmentscores":[{"ismissing":true,"isexempt":true}]}]},
+ {"_name":"Quiz Today","_assignmentsections":[{"duedate":"2026-11-05","_assignmentscores":[{"ismissing":false,"islate":false}],"_assignmentcategoryassociations":[]}]},
+ {"_name":"Test On Boundary","_assignmentsections":[{"duedate":"2026-11-19","_assignmentscores":[]}]},
+ {"_name":"Beyond Window","_assignmentsections":[{"duedate":"2026-11-20","_assignmentscores":[]}]},
+ {"_name":"Yesterday Not Upcoming","_assignmentsections":[{"duedate":"2026-11-04","_assignmentscores":[]}]},
+ {"_name":"Already Scored","_assignmentsections":[{"duedate":"2026-11-10","_assignmentscores":[{"scorepoints":9.0,"iscollected":false}]}]},
+ {"_name":"Collected Future","_assignmentsections":[{"duedate":"2026-11-11","_assignmentscores":[{"iscollected":true}]}]},
+ {"_name":"Missing Worksheet","_assignmentsections":[{"duedate":"2026-10-20","_assignmentscores":[{"ismissing":true}]}]},
+ {"_name":"Bad Date","_assignmentsections":[{"duedate":"soon","_assignmentscores":[]}]},
+ "garbage"
+]

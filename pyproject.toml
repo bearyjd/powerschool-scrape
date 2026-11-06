@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powerschool-scrape"
+version = "0.1.0"
+description = "PowerSchool parent portal CLI scraper (missing / late / upcoming work)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+browser = ["playwright>=1.40"]
+dev = ["pytest>=7", "pytest-cov>=4", "ruff>=0.5"]
+
+[project.scripts]
+powerschool = "ps_cli.cli:main"
+
+[tool.setuptools]
+packages = ["ps_cli"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
